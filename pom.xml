@@ -23,6 +23,12 @@
     <!-- Startup class -->
     <application.class>com.podilito.App</application.class>
   </properties>
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
   <dependencies>
     <!-- Server -->
@@ -30,6 +36,24 @@
       <groupId>org.jooby</groupId>
       <artifactId>jooby-netty</artifactId>
     </dependency>
+
+    <dependency>
+        <groupId>com.radixdlt</groupId>
+        <artifactId>radixdlt-java</artifactId>
+        <version>0.9.3</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.jooby</groupId>
+        <artifactId>jooby-jackson</artifactId>
+        <version>1.4.0</version>
+    </dependency>
+
+<dependency>
+    <groupId>com.mashape.unirest</groupId>
+    <artifactId>unirest-java</artifactId>
+    <version>1.4.9</version>
+</dependency>
 
     <!-- logging -->
     <dependency>
