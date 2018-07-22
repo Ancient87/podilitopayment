@@ -1,0 +1,17 @@
+{
+  "crypto": {
+    "cipher": "aes-256-ctr",
+    "cipherparams": {
+      "iv": "3565f69ac10eef10cfa3dd7e731963c6"
+    },
+    "ciphertext": "bb72a7122b4348e1a08fc616296554d967f3429922bde25d6cafac32e9520a8a5f78c908e92ce25bd38772389d8a582b44775dc3b32f8054742567841cae6312",
+    "pbkdfparams": {
+      "iterations": 100000,
+      "keylen": 32,
+      "digest": "sha512",
+      "salt": "9ac9676167494bd5e76fdc2bb3af437d787a2ef671403fa65ab83f366e844450"
+    },
+    "mac": "0ae12707860c3432d96cdd65a9bc3504098edd1e19705ec2adbf4b0d44c7496e"
+  },
+  "id": "-3556551040483578833544236659"
+}
